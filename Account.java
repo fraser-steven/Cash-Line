@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.InputMismatchException;
 
-public class account {
+public class Account {
     
     private int customerNumber;
     private int pinNumber;
@@ -11,18 +11,18 @@ public class account {
     Scanner input = new Scanner(System.in);
     DecimalFormat moneyFormat = new DecimalFormat("'£'###,##0.00")
 
-    public account() {
+    public Account() {
 
     }
 
-    public account(int customerNumber, int pinNumber) {
+    public Account(int customerNumber, int pinNumber) {
 
         this.customerNumber = customerNumber;
         this.pinNumber = pinNumber;
 
     }
 
-    public account(int customerNumber, int pinNumber, double checkingBalance, double savingBalance) {
+    public Account(int customerNumber, int pinNumber, double checkingBalance, double savingBalance) {
 
         this.customerNumber = customerNumber;
         this.pinNumber = pinNumber;
