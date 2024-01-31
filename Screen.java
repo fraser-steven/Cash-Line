@@ -2,9 +2,9 @@ import java.io.IOException;
 
 public class Screen {
     
-    public static void nain(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
-        Options options = new Options();
+        options options = new options();
         introduction();
         options.mainMenu();
 
